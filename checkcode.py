@@ -36,7 +36,7 @@ def securitydoor():
                 file.write(x+' - '+str(askpin)+'\n')
                 file.close()
                 time.sleep(1) #sleep
-                os.system('open.py')
+                os.system('open.py') #open program, open.py
             else:
                 #if incorrect tell them and start over
                 print('Incorrect Pin')
